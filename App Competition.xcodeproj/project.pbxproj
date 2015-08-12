@@ -15,6 +15,7 @@
 		443394341B7B3D2100E5E036 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 443394321B7B3D2100E5E036 /* LaunchScreen.storyboard */; };
 		4433943F1B7B3D2100E5E036 /* App_CompetitionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4433943E1B7B3D2100E5E036 /* App_CompetitionTests.m */; };
 		4433944A1B7B3D2100E5E036 /* App_CompetitionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 443394491B7B3D2100E5E036 /* App_CompetitionUITests.m */; };
+		443394591B7B3D4D00E5E036 /* DraggableItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 443394581B7B3D4D00E5E036 /* DraggableItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		443394451B7B3D2100E5E036 /* App CompetitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "App CompetitionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		443394491B7B3D2100E5E036 /* App_CompetitionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = App_CompetitionUITests.m; sourceTree = "<group>"; };
 		4433944B1B7B3D2100E5E036 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		443394571B7B3D4D00E5E036 /* DraggableItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DraggableItem.h; sourceTree = "<group>"; };
+		443394581B7B3D4D00E5E036 /* DraggableItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DraggableItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,8 @@
 				4433942A1B7B3D2100E5E036 /* ViewController.h */,
 				4433942B1B7B3D2100E5E036 /* ViewController.m */,
 				4433942D1B7B3D2100E5E036 /* Main.storyboard */,
+				443394571B7B3D4D00E5E036 /* DraggableItem.h */,
+				443394581B7B3D4D00E5E036 /* DraggableItem.m */,
 				443394301B7B3D2100E5E036 /* Assets.xcassets */,
 				443394321B7B3D2100E5E036 /* LaunchScreen.storyboard */,
 				443394351B7B3D2100E5E036 /* Info.plist */,
@@ -272,6 +277,7 @@
 			files = (
 				4433942C1B7B3D2100E5E036 /* ViewController.m in Sources */,
 				443394291B7B3D2100E5E036 /* AppDelegate.m in Sources */,
+				443394591B7B3D4D00E5E036 /* DraggableItem.m in Sources */,
 				443394261B7B3D2100E5E036 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
